@@ -1,2 +1,2 @@
 # app-framework-demo
-Demo of simple application based on App micro framework
+Demo of the simple application based on PHP App micro framework
