@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: url(/i/layouts/main/bg.jpg) repeat-y left top fixed;
+}
+
+body {
+	background: url(/i/layouts/main/h_bg.jpg) no-repeat;
+	float: left;
+	font: 13px Tahoma, Arial, Verdana, sans-serif;
+	color: #888;
+	margin: 0;
+}
+
+div#content a {
+	text-decoration: none;
+	border-bottom: 1px solid #a0a0a0;
+}
+
+div#content a:link {
+	color: #000;
+}
+
+div#content a:visited {
+	color: #000;
+	border-bottom: 1px solid #a0a0a0;
+}
+
+div#content a:hover {
+	color: #ae3a3a;
+	border-bottom: 1px solid #808080;
+}
+
+abbr,acronym,span.abbr {
+	cursor: help;
+	border-bottom: 1px dotted;
+}
+
+blockquote {
+	margin: 0 0 1.4em 1.4em;
+	padding: 0 0 0 8px;
+	border-left: 6px solid #bf7878;
+	font: 10px Tahoma, Arial, Verdana, sans-serif;
+	line-height: 1.3em;
+	color: #6a6a6a;
+	text-align: justify;
+}
+
+div#footer img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+p {
+	margin-bottom: 1.4em;
+	line-height: 1.3em;
+	text-align: justify;
+}
+
+h1,h2,h3 {
+	font: 16px "Century Gothic", Tahoma, Arial, Verdana, sans-serif;
+	text-align: right;
+	text-transform: lowercase;
+}
+
+h1 {
+	margin-bottom: .3em;
+	color: #9a2222;
+}
+
+h2 {
+	font: italic 10px Tahoma, Arial, Verdana, sans-serif;
+	margin-bottom: 1.7em;
+	color: #707070;
+}
+
+h3 {
+	margin-bottom: 1em;
+	font-weight: bold;
+}
+
+a.layout {
+	display: block;
+	width: 210px;
+	height: 128px;
+	border: 1px solid #ccc;
+	text-decoration: none;
+	margin-right: 9px;
+	float: left;
+	padding: 3px;
+}
+
+a.layout:visited {
+	border: 1px solid #ccc;
+}
+
+a.layout:hover {
+	border: 1px solid #a72d2d;
+}
+
+div#content ul {
+	list-style-image: url(/i/layouts/main/list.gif);
+	padding: 0 9px 0 12px !important;
+	padding: 0 9px 0 17px;
+	margin-bottom: 1.5em;
+	line-height: 1.3em;
+}
+
+div#wrapper {
+	padding: 0;
+	width: 495px;
+}
+
+div#content {
+	float: right;
+	width: 360px;
+	padding: 0;
+	margin: 100px 0 0 0;
+}
+
+div#footer {
+	clear: both;
+	float: right;
+	width: 58px;
+	height: 31px;
+	margin: 40px 0 0 0;
+}
+
+ul#navigation {
+	float: left;
+	width: 90px;
+	margin: 205px 0 0 0;
+	padding: 0 0 0 30px;
+	list-style: none;
+	font: bold 12px Arial, Tahoma, Verdana, sans-serif;
+	text-transform: lowercase;
+}
+
+ul#navigation li {
+	margin-bottom: 1px;
+}
+
+ul#navigation a {
+	text-decoration: none;
+	text-align: center;
+	background: #f9f9f9;
+	color: #887171;
+	display: block;
+	width: 60px;
+	padding: 3px 0;
+}
+
+ul#navigation a:hover {
+	background: #fff;
+	color: #887171;
+	text-decoration: none;
+}

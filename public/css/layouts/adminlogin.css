@@ -1,0 +1,26 @@
+html,body {
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+}
+
+#loginForm {
+	width: 350px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -150px;
+	margin-left: -175px;
+}
+
+.x-toolbar {
+	background-image: none !important;
+}
+
+.x-panel-tbar-noheader .x-toolbar,.x-panel-mc .x-panel-tbar .x-toolbar {
+	border: 0px !important;
+}
+
+.x-panel-tbar {
+	display: none !important;
+}

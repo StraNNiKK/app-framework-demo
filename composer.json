@@ -1,0 +1,20 @@
+{
+    "name": "strannikk/app-framework-demo",
+    "description": "Demo of the simple application based on PHP App micro framework",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Dmitry Viskov",
+            "email": "strannik772@yandex.ru"
+        }
+    ],
+	"repositories": [{
+ 		"type": "vcs",
+ 		"url": "https://github.com/StraNNiKK/app-framework.git"
+ 	}],
+ 	"require": {
+ 		"strannikk/app-framework": "dev-master"
+ 	}
+}

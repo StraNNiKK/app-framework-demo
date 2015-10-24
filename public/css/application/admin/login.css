@@ -1,0 +1,15 @@
+.x-panel-tbar {
+	display: block !important;
+}
+
+.x-panel-body {
+	height: 91px !important;
+}
+
+.x-toolbar {
+	border: 0px !important;
+}
+
+#errorMsgText {
+	font-size: 13px !important;
+}

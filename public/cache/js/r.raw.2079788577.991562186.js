@@ -1,0 +1,2 @@
+
+Ext.SSL_SECURE_URL='/i/common/extjs/resources/images/s.gif';Ext.BLANK_IMAGE_URL='/i/common/extjs/resources/images/s.gif';var options={"adminUrl":"\/admin\/","formUrl":"\/admin\/login\/","loginUrl":"\/admin\/login\/authenticate\/","captchaUrl":"\/admin\/login\/captcha\/","cancelUrl":"\/"};var error='<font color="red">Неверный код</font>';
