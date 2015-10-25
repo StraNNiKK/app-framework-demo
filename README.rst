@@ -10,9 +10,9 @@ To setup it please follow this steps:
 .. code-block:: bash
 
   composer install
-* create MySQL datatbase and execute all SQL from `sql/mysql <https://github.com/StraNNiKK/app-framework-demo/tree/master/sql/mysql>`_ directory
-* edit `/application/configs/application.php <https://github.com/StraNNiKK/app-framework-demo/blob/master/application/configs/application.php>`_ according your settings
-* if you are using PHP 5.4.x or higher you could run default PHP server in **public** directory:
+* create MySQL datatbase and execute all SQL from `/sql/mysql <https://github.com/StraNNiKK/app-framework-demo/tree/master/sql/mysql>`_ directory
+* edit `/application/configs/application.php <https://github.com/StraNNiKK/app-framework-demo/blob/master/application/configs/application.php>`_ according your own settings
+* if you are using PHP 5.4.x or higher you could run default PHP server in **/public** directory:
 .. code-block:: bash
 
   php -S 0.0.0.0:8000 router.php
